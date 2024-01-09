@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(217, 250, 248);
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    background-color: antiquewhite;
+    border-radius: 2%;
+
+}
+.form1{
+    text-align: center;
+}
+.center h1{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px sold silver;
+}
+.textfild{
+    width: 90%;
+    height: 40px;
+    font-size: 18px;
+    border: 2px solid #e16896;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin: 7px 0;  
+}
+.btn{
+    width: 16%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    margin: 7px ;
+}
